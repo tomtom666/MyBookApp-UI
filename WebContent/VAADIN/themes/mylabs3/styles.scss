@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "mylabs3.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in mylabs3.scss */
+.mylabs3 {
+  @include addons;
+  @include mylabs3;
+}
